@@ -1,0 +1,650 @@
+{
+    "type": "FeatureCollection",
+    "name": "TITIK3",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "1",
+                "NAMA_SEKOLAH": "TKN Tebet 01",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.2322943350404376,
+                "TITIK_Y": 106.85907909268812,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1FpVFUncz-E9G3x0RTjMSSPJv9rKx3bnm?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.85907909268812,
+                    -6.232294335040438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "2",
+                "NAMA_SEKOLAH": "SDN Bukit Duri 03",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.219876,
+                "TITIK_Y": 106.853832,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1-rrjI18hRdi4980g-zCn-yp3VZSp8M58?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.853832,
+                    -6.219876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "3",
+                "NAMA_SEKOLAH": "SDN Bukit Duri 05",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.21985,
+                "TITIK_Y": 106.85385,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1tVAVeAGzeoR7XRYqnwp8C4QUt71dnAZC?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.85385,
+                    -6.21985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "4",
+                "NAMA_SEKOLAH": "SDN Kebon Baru 07",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.2321167627941874,
+                "TITIK_Y": 106.85899539614455,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/15Y8jvJXDZWI5rlocSe7bjb8ksTxNWd-s?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.85899539614455,
+                    -6.232116762794187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "5",
+                "NAMA_SEKOLAH": "SDN Manggarai 03",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.22018,
+                "TITIK_Y": 106.853728,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1GjRa-GDAvltPijsrdyhVqFrpAFxlLTmb?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.853728,
+                    -6.22018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "6",
+                "NAMA_SEKOLAH": "SDN Manggarai 09",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.215779,
+                "TITIK_Y": 106.855046,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1Usq3S46EVGlmlcbM7V7vI3KgsU2qdNXl?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.855046,
+                    -6.215779
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "7",
+                "NAMA_SEKOLAH": "SDN Menteng Dalam 05 (Pagi)",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2392123,
+                "TITIK_Y": 106.8436405,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1dH4fTLwxunbruh15BR1LxNdGKsd3cD7c?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8436405,
+                    -6.2392123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "8",
+                "NAMA_SEKOLAH": "SDN Menteng Dalam 07",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.230712,
+                "TITIK_Y": 106.8407019,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/17n0GK2eAC6HeLtS2CgyxI8lv_n6FE9Wh?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8407019,
+                    -6.230712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "9",
+                "NAMA_SEKOLAH": "SDN Menteng Dalam 11 (Pagi)",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.2395035,
+                "TITIK_Y": 106.8441615,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1Tk2tanvvxvw13dtRcJh2WwEZEtOnTjxb?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8441615,
+                    -6.2395035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "10",
+                "NAMA_SEKOLAH": "SDN Tebet Barat 01 (Pagi)",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2372103,
+                "TITIK_Y": 106.8481092,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1ZYPzY855rC1CwtWP6n969Rb4d-chYBGw?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8481092,
+                    -6.2372103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "11",
+                "NAMA_SEKOLAH": "SDN Tebet Barat 05 (Pagi)",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.2246658,
+                "TITIK_Y": 106.849825,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1GLEZZHzEeTLU7w4NWKZTRzT--qrFN_f0?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.849825,
+                    -6.2246658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "12",
+                "NAMA_SEKOLAH": "SDN Tebet Timur 07",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.2249539,
+                "TITIK_Y": 106.8534259,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1A8tb2A1kKhcHZzTfMvn4VRiwQDvrMnX_?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8534259,
+                    -6.2249539
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "13",
+                "NAMA_SEKOLAH": "SDN Tebet Timur 15",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.228205,
+                "TITIK_Y": 106.85821,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/17AA_Qp1pwevnl1Y7_m_tten_7RCB5F_z?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.85821,
+                    -6.228205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "14",
+                "NAMA_SEKOLAH": "SDS Tauladan 17 Agustus",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.2284238,
+                "TITIK_Y": 106.850166,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1mtlVDQQUABu8GmXB29mz-CPu3HXBEhJy?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Swasta",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.850166,
+                    -6.2284238
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "15",
+                "NAMA_SEKOLAH": "SMPN 265 Jakarta",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2321982751303295,
+                "TITIK_Y": 106.85927131378531,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1blZUjzt7wbCTF_5Ava84EumWvxzVsZvT?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.859271313785314,
+                    -6.23219827513033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "16",
+                "NAMA_SEKOLAH": "SMPN 115 Jakarta",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.224916585,
+                "TITIK_Y": 106.8544096,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1D-yN1E4kJspgJvLgU9euDgDUBxUTcext?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8544096,
+                    -6.224916585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "17",
+                "NAMA_SEKOLAH": "SMPN 15 Jakarta",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2393516,
+                "TITIK_Y": 106.8445016,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/15US9aMTMaTkAWkUpX_44dCBvWHyRoQLv?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8445016,
+                    -6.2393516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "18",
+                "NAMA_SEKOLAH": "SMPN 3 Jakarta",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.212208077,
+                "TITIK_Y": 106.8551867,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1jlthAlqVMF2ptxEbDrlFb70XiiF6QQvM?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8551867,
+                    -6.212208077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "19",
+                "NAMA_SEKOLAH": "SMP Yasporbi I Jakarta",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2393376,
+                "TITIK_Y": 106.8415612,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1Mzoc-wjle39Tqr3znL7a1zdo4OchqXFc?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Swasta",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8415612,
+                    -6.2393376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "20",
+                "NAMA_SEKOLAH": "SMAN 26 Jakarta",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2334718,
+                "TITIK_Y": 106.8486664,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1dyvwK5aMUKQavHiWTx7dk9X6ki5DShE_?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8486664,
+                    -6.2334718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "21",
+                "NAMA_SEKOLAH": "SMKN 32 Jakarta",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2294542,
+                "TITIK_Y": 106.8495143,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1dkHqeTSewhgCTyyix06VpRTGIgvnWeKj?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8495143,
+                    -6.2294542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "22",
+                "NAMA_SEKOLAH": "SMAS Santo Fransiskus Asisi Tebet",
+                "STATUS": "Sesuai Rencana",
+                "TITIK_X": -6.2313425,
+                "TITIK_Y": 106.8416952,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/195MfPxUmXsG1YwHvk0qeyptkXOdoL9pb?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Swasta",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8416952,
+                    -6.2313425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "23",
+                "NAMA_SEKOLAH": "SLBN 11 Jakarta",
+                "STATUS": "Tambahan",
+                "TITIK_X": -6.2392318,
+                "TITIK_Y": 106.8441585,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1EVoQEYmb9ekVWWB7pq6-nO8Atx3RQRZo?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8441585,
+                    -6.2392318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "SEKOLAH YANG BELUM TERKUNJUNGI (SESUAI RENCANA)",
+                "NAMA_SEKOLAH": null,
+                "STATUS": null,
+                "TITIK_X": null,
+                "TITIK_Y": null,
+                "LINK_FOTO": null,
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": null,
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "24",
+                "NAMA_SEKOLAH": "SDN Kebon Baru 03 Pagi",
+                "STATUS": "Belum Terkunjungi",
+                "TITIK_X": -6.241191219329686,
+                "TITIK_Y": 106.86122532524753,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1DKyg3EEleG2W5arjcpGNvoPNHm213pqw?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.561471127956835,
+                    -6.709474350197311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "25",
+                "NAMA_SEKOLAH": "SDN Manggarai 01 Pagi",
+                "STATUS": "Belum Terkunjungi",
+                "TITIK_X": -6.213119467195952,
+                "TITIK_Y": 106.85611383320143,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1Rb4W-chJWbxTWxeFqc_olD7crzX66cie?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.856113833201434,
+                    -6.213119467195952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "26",
+                "NAMA_SEKOLAH": "SMAN 37 Jakarta",
+                "STATUS": "Belum Terkunjungi",
+                "TITIK_X": -6.2345215246376045,
+                "TITIK_Y": 106.85882158126124,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1i6lblaPtWSdsQ3Kta74t3w0Cz3lOM3-m?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.858821581261239,
+                    -6.234521524637604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "NO": "27",
+                "NAMA_SEKOLAH": "SMAN 8 Jakarta",
+                "STATUS": "Belum Terkunjungi",
+                "TITIK_X": -6.2179928708838288,
+                "TITIK_Y": 106.85953839475208,
+                "LINK_FOTO": "https://drive.google.com/drive/folders/1tl00Jc5Mgw0ghK3hgwUWYwUyD6XQunu9?usp=drive_link",
+                "ALAMAT": null,
+                "STATUS_SEKOLAH": "Negeri",
+                "FASILITAS_SEKOLAH": null,
+                "JUMLAH_TENAGA_PELAJAR": null,
+                "ALAMAT_WEBSITE": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.859538394752079,
+                    -6.217992870883829
+                ]
+            }
+        }
+    ]
+}
