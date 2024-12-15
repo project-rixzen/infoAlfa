@@ -66,7 +66,7 @@ $.getJSON(baseUrl + '/src/assets/gis/geojson/alfa_bekasi.geojson', function (dat
         pointToLayer: function (feature, latlng) {
             var marker = L.marker(latlng, { icon: ratIcon });
             // Menggabungkan name dan address dalam bindPopup
-            marker.bindPopup('<b>' + feature.properties.name + '</b><br>' + feature.properties.address);
+            marker.bindPopup('<b>' + feature.properties.NAMA + '</b><br>' + feature.properties.ALAMAT);
             return marker;
         }
     }).addTo(alfamart);
