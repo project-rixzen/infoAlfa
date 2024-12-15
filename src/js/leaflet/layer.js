@@ -1,13 +1,14 @@
-var indomaret = new L.LayerGroup();
+var alfamart = new L.LayerGroup();
 var jalan = new L.LayerGroup();
-var kelurahan = new L.LayerGroup();
+var kecamatan = new L.LayerGroup();
+var bekasi = new L.LayerGroup();
 var sungai = new L.LayerGroup();
 
 var map = L.map('map', {
-    center: [-6.152774156483126, 106.78470822205712],
+    center: [-6.309889, 107.022761],
     zoom: 13,
     zoomControl: false,
-    layers: [indomaret]
+    layers: [alfamart, kecamatan]
 });
 
 var GoogleMaps = new L.TileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
@@ -39,10 +40,11 @@ var baseLayers = {
 
 var groupedOverlays = {
     "Peta Dasar": {
-        'Indomaret': indomaret,
-        'Kelurahan': kelurahan,
-        'Jalan Jakarta Barat': jalan,
-        'Sungai Jakarta Barat': sungai,
+        'Alfamart': alfamart,
+        'Kecamatan Mustika Jaya': kecamatan,
+        'Kota Bekasi': bekasi,
+        'Jalan Kota Bekasi': jalan,
+        'Sungai Kota Bekasi': sungai,
     }
 };
 
@@ -55,7 +57,7 @@ GEOJSON LAYER
 var baseUrl = window.location.origin;
 console.log(baseUrl);
 
-$.getJSON(baseUrl + '/src/assets/gis/geojson/indomaret_locations.geojson', function (data) {
+$.getJSON(baseUrl + '/src/assets/gis/geojson/alfa_bekasi.geojson', function (data) {
     var ratIcon = L.icon({
         iconUrl: '/src/assets/gis/marker.png',
         iconSize: [24, 24]
@@ -63,13 +65,14 @@ $.getJSON(baseUrl + '/src/assets/gis/geojson/indomaret_locations.geojson', funct
     L.geoJson(data, {
         pointToLayer: function (feature, latlng) {
             var marker = L.marker(latlng, { icon: ratIcon });
-            marker.bindPopup(feature.properties.name);
+            // Menggabungkan name dan address dalam bindPopup
+            marker.bindPopup('<b>' + feature.properties.name + '</b><br>' + feature.properties.address);
             return marker;
         }
-    }).addTo(indomaret);
+    }).addTo(alfamart);
 });
 
-$.getJSON(baseUrl +'/src/assets/gis/geojson/jalan_jakarta_barat.geojson', function (data) {
+$.getJSON(baseUrl +'/src/assets/gis/geojson/jalan_bekasi.geojson', function (data) {
     L.geoJson(data, {
         style: function (feature) {
             var color,
@@ -85,7 +88,7 @@ $.getJSON(baseUrl +'/src/assets/gis/geojson/jalan_jakarta_barat.geojson', functi
     }).addTo(jalan); 
 });
 
-$.getJSON(baseUrl +'/src/assets/gis/geojson/sungai_jakarta_barat.geojson', function (data) {
+$.getJSON(baseUrl +'/src/assets/gis/geojson/sungai_bekasi.geojson', function (data) {
     L.geoJson(data, {
         style: function (feature) {
             var color,
@@ -102,15 +105,29 @@ $.getJSON(baseUrl +'/src/assets/gis/geojson/sungai_jakarta_barat.geojson', funct
 });
 
 
-$.getJSON(baseUrl + '/src/assets/gis/geojson/batas_kelurahan.geojson', function (kode) {
+$.getJSON(baseUrl + '/src/assets/gis/geojson/mustikajaya_bekasi.geojson', function (kode) {
     L.geoJson(kode, {
         style: function (feature) {
-            return { color: "#FF5733", weight: 3, fillOpacity: 0 }; // orang border, transparent fill, no dashes
-        },
-        onEachFeature: function (feature, layer) {
-            layer.bindPopup(feature.properties.tebet);
+            return { 
+                color: "#3388FF", 
+                weight: 3, 
+                fillOpacity: 0.3
+            };
         }
-    }).addTo(kelurahan);
+    }).addTo(kecamatan);
 });
+
+$.getJSON(baseUrl + '/src/assets/gis/geojson/administrasi_desa_bekasi.geojson', function (kode) {
+    L.geoJson(kode, {
+        style: function (feature) {
+            return { 
+                color: "#33FF57",    
+                weight: 3, 
+                fillOpacity: 0.5    
+            };
+        }
+    }).addTo(bekasi);
+});
+
 
 
